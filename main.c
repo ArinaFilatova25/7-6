@@ -45,7 +45,7 @@ int main()
 int* s (int *a, int *b, int N, int M)
 {
     int *c;
-    c=(int *) malloc(N + M*sizeof(int));
+    c=(int *) malloc((N + M)*sizeof(int));
     int i = 0, j = 0, k = 0;
     while (i < N && j < M)
     {
